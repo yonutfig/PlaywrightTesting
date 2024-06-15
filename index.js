@@ -1,4 +1,3 @@
-// EDIT THIS FILE TO COMPLETE ASSIGNMENT QUESTION 1
 const { chromium } = require("playwright");
 const fs = require("fs");
 
@@ -29,4 +28,3 @@ async function saveHackerNewsArticles() {
   await browser.close();
 }
 saveHackerNewsArticles();
-console.log("🐺");
